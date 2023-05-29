@@ -1,0 +1,55 @@
+$primary-color: #003366;
+$secondary-color: #ff7f50;
+
+.page {
+    height: 80vh;
+    margin-top: 4%;
+}
+
+.header-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+    .header-image {
+        width: 600px;
+        margin-bottom: 1rem;
+    }
+
+    .title-home {
+        color: $primary-color;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.main-home {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+
+    .home-intro {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: $secondary-color;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: darken($secondary-color, 10%);
+        }
+    }
+}

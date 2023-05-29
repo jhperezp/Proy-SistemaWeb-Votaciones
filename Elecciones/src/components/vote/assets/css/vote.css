@@ -1,0 +1,144 @@
+.form-content {
+    /* display: grid; */
+    justify-content: center;
+    place-items: center;
+    width: 80%;
+    margin: 6% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.form-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.card-container-avatar {
+    width: 80px;
+}
+
+.card-container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #ff7f50;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-container-header h3 {
+    margin: 0;
+    font-size: 11px;
+    color: white;
+}
+
+.card-container-content {
+    padding: 20px;
+    height: calc(100% - 150px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    min-height: 210px;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.card-container-info {
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    background-color: #fff;
+    /* Agregamos un borde y sombra al hacer foco en el select */
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    /* Estilo del texto que se muestra en el select */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Fondo y estilo de la flecha del select */
+    background: url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-512.png') no-repeat right #f2f2f2;
+    background-position-x: calc(100% - 15px);
+    background-position-y: 8px;
+    background-size: 20px;
+
+    /* Estilo del hover */
+    &:hover {
+        background-color: #f2f2f2;
+    }
+
+    /* Estilo del active */
+    &:active {
+        background-color: #ddd;
+    }
+}
+
+
+.buttons-form {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.buttons-content {
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.send-button {
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.send-button:hover {
+    background-color: #ff6347;
+}
+
+.send-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
