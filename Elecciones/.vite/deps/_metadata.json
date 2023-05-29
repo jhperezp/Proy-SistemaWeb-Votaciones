@@ -1,0 +1,71 @@
+{
+  "hash": "eb3b1b14",
+  "browserHash": "c1ef1b3c",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "88e7606e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "83083762",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "ed28a037",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "1608625d",
+      "needsInterop": false
+    },
+    "sweetalert2": {
+      "src": "../../node_modules/sweetalert2/src/sweetalert2.js",
+      "file": "sweetalert2.js",
+      "fileHash": "d89a4a87",
+      "needsInterop": false
+    },
+    "react-data-table-component": {
+      "src": "../../node_modules/react-data-table-component/dist/index.es.js",
+      "file": "react-data-table-component.js",
+      "fileHash": "857a78f6",
+      "needsInterop": false
+    },
+    "react-chartjs-2": {
+      "src": "../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "a66de5b6",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "d45bb28b",
+      "needsInterop": false
+    },
+    "react-spinners": {
+      "src": "../../node_modules/react-spinners/esm/index.js",
+      "file": "react-spinners.js",
+      "fileHash": "b06ad29a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-M7CKY7FR": {
+      "file": "chunk-M7CKY7FR.js"
+    },
+    "chunk-C4YXTBOF": {
+      "file": "chunk-C4YXTBOF.js"
+    },
+    "chunk-Y4AOG3KG": {
+      "file": "chunk-Y4AOG3KG.js"
+    }
+  }
+}
