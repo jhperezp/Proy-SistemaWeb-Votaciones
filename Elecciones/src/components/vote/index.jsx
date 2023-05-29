@@ -84,6 +84,7 @@ export const Vote = ({ userLogin, setIsLoading }) => {
 
     const handleNextPage = () => {
         setFormState(state => {
+            console.log('state', { state, vowsMade });
             if (state == 0 && vowsMade.includes('votePresidente')) {
                 return state + 1
             } else if (state == 1 && vowsMade.includes('voteAlcalde')) {

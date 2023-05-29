@@ -11,6 +11,7 @@ import { Loader } from './components/Loader'
 import { Candidates } from './components/candidates'
 import { PageError } from './components/PageError'
 import { Report } from './components/report'
+import { ViewUser } from './components/viewUser'
 
 export const App = () => {
     const [userLogin, setUserLogin] = useState()
@@ -65,7 +66,7 @@ export const App = () => {
                     <Loader isLoading={isLoading} />
 
                 </>
-        },
+        }
         ,
         {
             path: '/report',
@@ -73,6 +74,15 @@ export const App = () => {
                 <>
                     <Nav userLogin={userLogin} />
                     <Report userLogin={userLogin} setIsLoading={setIsLoading} />
+                    <Loader isLoading={isLoading} />
+                </>
+        },
+        {
+            path: '/viewUser',
+            element:
+                <>
+                    <Nav userLogin={userLogin} />
+                    <ViewUser userLogin={userLogin} setIsLoading={setIsLoading} />
                     <Loader isLoading={isLoading} />
                 </>
         },

@@ -60,6 +60,14 @@ export default function Nav({ userLogin }) {
                                     <i className="fa-regular fa-flag icons" />
                                     Reporte
                                 </NavLink>
+                                <NavLink to={'/viewUser'}
+                                    className={({ isActive }) =>
+                                        isActive ? 'navbar-link active' : 'navbar-link'
+                                    }
+                                >
+                                    <i className="fa-regular fa-flag icons" />
+                                    Ver usuarios
+                                </NavLink>
                             </>
                         )}
                         {
