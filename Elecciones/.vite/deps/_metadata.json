@@ -1,59 +1,59 @@
 {
   "hash": "eb3b1b14",
-  "browserHash": "c1ef1b3c",
+  "browserHash": "6301e9d5",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "88e7606e",
+      "fileHash": "6675b2c5",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "83083762",
+      "fileHash": "25b62010",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "ed28a037",
+      "fileHash": "130d1741",
       "needsInterop": false
     },
     "axios": {
       "src": "../../node_modules/axios/index.js",
       "file": "axios.js",
-      "fileHash": "1608625d",
-      "needsInterop": false
-    },
-    "sweetalert2": {
-      "src": "../../node_modules/sweetalert2/src/sweetalert2.js",
-      "file": "sweetalert2.js",
-      "fileHash": "d89a4a87",
+      "fileHash": "b81c0ca8",
       "needsInterop": false
     },
     "react-data-table-component": {
       "src": "../../node_modules/react-data-table-component/dist/index.es.js",
       "file": "react-data-table-component.js",
-      "fileHash": "857a78f6",
+      "fileHash": "3f69fcfa",
       "needsInterop": false
     },
     "react-chartjs-2": {
       "src": "../../node_modules/react-chartjs-2/dist/index.js",
       "file": "react-chartjs-2.js",
-      "fileHash": "a66de5b6",
+      "fileHash": "4104f7ff",
       "needsInterop": false
     },
     "chart.js": {
       "src": "../../node_modules/chart.js/dist/chart.js",
       "file": "chart__js.js",
-      "fileHash": "d45bb28b",
+      "fileHash": "3a58e3f7",
+      "needsInterop": false
+    },
+    "sweetalert2": {
+      "src": "../../node_modules/sweetalert2/src/sweetalert2.js",
+      "file": "sweetalert2.js",
+      "fileHash": "39ad3bae",
       "needsInterop": false
     },
     "react-spinners": {
       "src": "../../node_modules/react-spinners/esm/index.js",
       "file": "react-spinners.js",
-      "fileHash": "b06ad29a",
+      "fileHash": "f4026a65",
       "needsInterop": false
     }
   },
